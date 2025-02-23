@@ -19,7 +19,7 @@ public class JAVA_8TH_PRACTICE_SET {
     public static void main(String[] args) {
 Employee moumita = new Employee();
         System.out.print(" Employee Name - ");
-moumita.setName("Moumita Ghosh");
+moumita.setName("Moumita");
 
 moumita.salary = 12;
 
