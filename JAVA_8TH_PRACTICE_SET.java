@@ -18,13 +18,11 @@ class Employee{
 public class JAVA_8TH_PRACTICE_SET {
     public static void main(String[] args) {
 Employee moumita = new Employee();
-        System.out.print(" Employee Name - ");
 moumita.setName("Moumita");
-
 moumita.salary = 12;
 
 
-        System.out.println(moumita.getName());
-        System.out.println(moumita.getSalary());
+        System.out.println(" Employee Name - "+moumita.getName());
+        System.out.println(" Employee salary - "+moumita.getSalary());
     }
 }
